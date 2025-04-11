@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SC_Library",
+	"Description": "This plugin is a library that contains +40 functions and 5 C++ classes that range from being able to switch between different screens/monitors, set the window always on top, change the position of the window, consumption of (cpu, ram, vram, etc) and more.",
+	"Category": "Other",
+	"CreatedBy": "Santiago Cañas",
+	"CreatedByURL": "https://www.youtube.com/channel/UCF4s9Yau3yw5jSXxpt4hWfA",
+	"DocsURL": "https://buttered-poet-a44.notion.site/SC_Library-Documentation-1ac82a55a8d680919701cac82f9cbc2c?pvs=4",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SC_Library",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
