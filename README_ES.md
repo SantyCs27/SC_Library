@@ -35,4 +35,4 @@ Plataformas de destino : Windows
 Si usted ya tiene C++ en su proyecto, solo debe construir su proyecto y el empaquetado funcionará correctamente, pero si no lo tiene, lo invito a ver este tutorial. [C++ Tutorial](https://youtu.be/EhD5Kff79Jo)
 
 # Historial
-- [x] [00/00/2025] Lanzamiento
+- [x] [14/04/2025] Lanzamiento
