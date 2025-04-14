@@ -25,7 +25,7 @@ Plataformas de destino : Windows
 - En la carpeta de su proyecto, cree una carpeta de `Plugins` | `C:/UnrealProjects/MyProject/Plugins`
 - Coloque la carpeta `SC_Library` en el directorio `Plugins` de su proyecto de Unreal Engine.
 - Abra su proyecto en su IDE y compile el proyecto.
-- Si todo se ha compilado correctamente, puedes conservar el complemento local en tu proyecto o moverlo a la carpeta de complementos del motor. 
+- Si todo se ha compilado correctamente, puedes conservar el `Plugin` local en tu proyecto o moverlo a la carpeta de `Plugins` del motor. 
     * `%PROJECT_DIR%/Plugins`
 
 # Construyendo el plugin
