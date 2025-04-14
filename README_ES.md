@@ -32,7 +32,7 @@ Hay dos métodos para construir el plugin. Sugiero usar el primer método si tie
 > Si usted NO construyó su proyecto con C++, a la hora de empaquetarlo este no funcionará, por eso es fundamental tener C++ en su proyecto.
 Si usted ya tiene C++ en su proyecto, solo debe construir su proyecto y el empaquetado funcionará correctamente, pero si no lo tiene, lo invito a ver este tutorial. [C++ Tutorial](https://youtu.be/EhD5Kff79Jo)
 
-## Normal
+## Build
 
 1. En la carpeta de su proyecto, cree una carpeta de complementos `C:/UnrealProjects/MyProject/Plugins`
 
@@ -42,24 +42,6 @@ Si usted ya tiene C++ en su proyecto, solo debe construir su proyecto y el empaq
 
 1. Si todo se ha compilado correctamente, puedes conservar el complemento local en tu proyecto o moverlo a la carpeta de complementos del motor. 
     * `%PROJECT_DIR%/Plugins`
-
-## Usando RunUAT.bat)
-
-1. Clonar el repositorio
-1. Abra el símbolo del sistema y ejecute el archivo por lotes de UnrealEngine para compilar el complemento, con su ubicación de descarga y ubicación de salida.
-
-> "`%UNREAL_DESIRED%`/Engine/Build/BatchFiles/RunUAT.bat" BuildPlugin -Plugin="`%DOWNLOAD_LOCATION%`/SC_Library/SC_Library.uplugin" -Package="`%OUT_LOCATION%`" -CreateSubFolder
-
-Ejemplo: Construcción para la versión deseada `UE_5.0`:
-
-* `%UNREAL_DESIRED%`: C:/Program Files/Epic Games/UE_5.0
-* `%DOWNLOAD_LOCATION%`: C:/Downloads
-* `%OUT_LOCATION%`: C:Downloads/SC_Library
-
-> "**C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat**" BuildPlugin -Plugin="**C:Temp/SC_Library/SC_Library.uplugin**" -Package="**C:/TempSC_Library**" -CreateSubFolder
-
-4. Copia la carpeta del complemento compilado desde la ubicación de tu paquete (`C:/TempSC_Library/SC_Library`) a:
-    * Ubicación del complemento del proyecto `%PROJECT_DIR%/Plugins`
 
     ------------
 # Historial
