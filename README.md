@@ -27,7 +27,6 @@ Supported Target Platforms : Windows
 
 # Building the plugin
 
-There are two methods of building the plugin. I suggest using the first method if you have a C++ project setup.
 > [!CAUTION]
 > If you did NOT build your project with C++, when it comes to packaging it will not work, so it is essential to have C++ in your project.
 If you already have C++ in your project, you just need to build your project and the packaging will work correctly, but if you don't, I invite you to watch this tutorial. [C++ Tutorial](https://youtu.be/EhD5Kff79Jo)
