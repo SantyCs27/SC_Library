@@ -35,4 +35,4 @@ Supported Target Platforms : Windows
 If you already have C++ in your project, you just need to build your project and the packaging will work correctly, but if you don't, I invite you to watch this tutorial. [C++ Tutorial](https://youtu.be/EhD5Kff79Jo)
 
 # History
-- [x] [00/00/2025] Launch
+- [x] [04/14/2025] Launch
