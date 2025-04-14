@@ -27,7 +27,6 @@ Plataformas de destino : Windows
 
 # Construyendo el plugin
 
-Hay dos métodos para construir el plugin. Sugiero usar el primer método si tiene una configuración de proyecto C++.
 > [!CAUTION]
 > Si usted NO construyó su proyecto con C++, a la hora de empaquetarlo este no funcionará, por eso es fundamental tener C++ en su proyecto.
 Si usted ya tiene C++ en su proyecto, solo debe construir su proyecto y el empaquetado funcionará correctamente, pero si no lo tiene, lo invito a ver este tutorial. [C++ Tutorial](https://youtu.be/EhD5Kff79Jo)
